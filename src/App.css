@@ -1,0 +1,25 @@
+.App {
+  border: solid 1px #3d3d3d;
+  margin: 50px 30px;
+  padding: 25px 15px;
+  width: 500px;
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-container ul li {
+  width: 180px;
+  overflow-wrap: break-word;
+}
+
+.done {
+  text-decoration: line-through;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
